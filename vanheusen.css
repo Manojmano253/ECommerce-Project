@@ -1,0 +1,48 @@
+.hero-section h1{
+    position: absolute;
+    top: 96%;
+    left: 44%;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+}
+.shopbutton{
+    position: absolute;
+    top: 103%;
+    left: 46%;
+    padding: 10px;
+    font-weight: 700;
+    font-size: large;
+    background-color: black;
+    color: whitesmoke;
+}
+.product-card{
+    background-color: beige;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    transition: transform .5s;
+}
+.product-card:hover{
+    transform: translateY(-20px);
+}
+.product-card img{
+    object-fit: cover;
+}
+#shirt1:hover{
+    content: url(images/shirt1-2.png);
+}
+#shirt2:hover{
+    content: url(images/shirt2-2.png);
+}
+#shirt3:hover{
+    content: url(images/shirt3-2.png);
+}
+#shirt4:hover{
+    content: url(images/shirt4-2.png);
+}
+#shirt5:hover{
+    content: url(images/shirt5-2.png);
+}
+#shirt6:hover{
+    content: url(images/shirt6-2.png);
+}
+
